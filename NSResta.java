@@ -13,7 +13,7 @@ public class NSResta
 {
     public String Diferencia(String numero)
     {// se ejecuta el método
-        // se inicializan las variables globales
+        // se inicializan las variables locales
         String num1 = "";// variable que guarda el valor del primer numero ingresado
         String num2 = "";// variable que guarda el valor del segundo numero ingresado
         int dif = 0;// variable que se ocupa para guardar el valor de la resta
