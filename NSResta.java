@@ -11,8 +11,14 @@
  */
 public class NSResta
 {
+       /**
+     
+     * @param numero El parametro numero define la cadena de caracteres que se ingresan
+      *@return devuelve el resultado/ diferencia entre ambos números
+       */
     public String Diferencia(String numero)
     {// se ejecuta el método
+        
         // se inicializan las variables locales
         String num1 = "";// variable que guarda el valor del primer numero ingresado
         String num2 = "";// variable que guarda el valor del segundo numero ingresado
@@ -36,6 +42,6 @@ public class NSResta
         dif = (Integer.parseInt(num1)) - (Integer.parseInt(num2));//se realiza la resta para obtener la diferencia (recordad xd que lo pedimos en String y df está en int así que debemos realizar el cambio
         
         String diferencia = Math.abs(dif) + "";// se aplica  el valor absoluto con el métdodo .abs() de la clase Math que tiene como argumento nuestra variable dif
-        return diferencia;// devolvemos el resultado de la diferencia en tipo String sto como tal no lo dice el enunciado pero weno xd
+       
+        return diferencia;// devolvemos el resultado de la diferencia en tipo String 
     }// fin del método
-}// fin de la clase
